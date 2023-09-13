@@ -16,9 +16,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.calculadora.ui.theme.CalculadoraTheme
-import com.example.calculadora.ui.theme.LightGray
-import com.example.calculadora.ui.theme.MediumGray
-import com.example.calculadora.ui.theme.Orange
+import com.example.calculadora.ui.theme.verdeClaro
+import com.example.calculadora.ui.theme.verdeOscuro
 
 
 @ExperimentalComposeUiApi
@@ -60,7 +59,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "AC",
-                                color = LightGray,
+                                color = verdeClaro,
                                 modifier = Modifier
                                     .aspectRatio(2f)
                                     .weight(2f)
@@ -69,7 +68,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "Del",
-                                color = LightGray,
+                                color = verdeClaro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -78,7 +77,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "/",
-                                color = Orange,
+                                color = verdeClaro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -93,7 +92,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "7",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -102,7 +101,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "8",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -111,7 +110,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "9",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -120,7 +119,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "x",
-                                color = Orange,
+                                color = verdeClaro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -135,7 +134,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "4",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -144,7 +143,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "5",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -153,7 +152,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "6",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -162,7 +161,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "-",
-                                color = Orange,
+                                color = verdeClaro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -177,7 +176,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "1",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -186,7 +185,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "2",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -195,7 +194,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "3",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -204,7 +203,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "+",
-                                color = Orange,
+                                color = verdeClaro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -219,7 +218,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "0",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(2f)
                                     .weight(2f)
@@ -228,7 +227,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = ".",
-                                color = MediumGray,
+                                color = verdeOscuro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -237,7 +236,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "=",
-                                color = Orange,
+                                color = verdeClaro,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
